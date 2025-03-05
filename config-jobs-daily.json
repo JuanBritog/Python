@@ -1,0 +1,151 @@
+{
+  "jobs": [    
+     {
+      "script": "Job_ObbligazionePrezzoTTIANATFOMOV.py",      
+      "frequenza": "giornaliero",
+      "giorni": ["lunedi", "martedi", "mercoledi", "giovedi", "venerdi"],
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ObbligazionePrezzoTTIANA.py",      
+      "frequenza": "giornaliero",
+      "giorni": ["lunedi", "martedi", "mercoledi", "giovedi", "venerdi"],
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_IsinSenzaMacroAssetClassAsset.py",      
+      "frequenza": "giornaliero",
+      "giorni": ["lunedi"],
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ControlloSaldiGiornalieriTermineElaborazioneTSTSLG.py",      
+      "frequenza": "giornaliero",
+      "giorni": ["martedi", "mercoledi", "giovedi", "venerdi","sabato"],
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ControlloPersoneFisicheSenzaCodiceFiscale.py",      
+      "frequenza": "giornaliero",
+      "giorni": ["lunedi", "martedi", "mercoledi", "giovedi", "venerdi"],
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ControlloJobsEmerald.py",      
+      "frequenza": "giornaliero",
+      "giorni": ["lunedi", "martedi", "mercoledi", "giovedi", "venerdi","sabato"],
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_Quadr_provv_erog_mutui_mu06.py",      
+      "frequenza": "giornaliero",
+      "giorno": "12",
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ControlliAcessiMensile.py",      
+      "frequenza": "giornaliero",
+      "giorno": "2",
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+	{
+      "script": "Job_ControlloRecordGiacenzaMediaTFOGIA.py",      
+      "frequenza": "giornaliero",
+      "giorno": "2",
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+	{
+      "script": "Job_ControlloMovimentiDivisa.py",      
+      "frequenza": "giornaliero",
+      "giorno": "29",
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_Facsimileprospettoindennitafidelity.py",      
+      "frequenza": "giornaliero",
+      "giorno": "1",
+      "enabled": false,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ReportProvvigionaliMF.py",      
+      "frequenza": "giornaliero",
+      "giorno": "27",
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ReportProvvigionaliEF.py",      
+      "frequenza": "giornaliero",
+      "giorno": "27",
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ReportProvvigionaliMF-Over-AM.py",      
+      "frequenza": "giornaliero",
+      "giorno": "27",
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ReportProvvigionaliMF-Over-CC.py",      
+      "frequenza": "giornaliero",
+      "giorno": "27",
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ReportProvvigionaliMF-Over-GM.py",      
+      "frequenza": "giornaliero",
+      "giorno": "27",
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ReportProvvigionaliMF-Over-NM.py",      
+      "frequenza": "giornaliero",
+      "giorno": "27",
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ReportProvvigionaliEF-Over-AM.py",      
+      "frequenza": "giornaliero",
+      "giorno": "27",
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ReportProvvigionaliEF-Over-CC.py",      
+      "frequenza": "giornaliero",
+      "giorno": "27",
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ReportProvvigionaliEF-Over-NM.py",      
+      "frequenza": "giornaliero",
+      "giorno": "27",
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    },
+    {
+      "script": "Job_ReportProvvigionaliEF-Over-GM.py",      
+      "frequenza": "giornaliero",
+      "giorno": "27",
+      "enabled": true,
+      "data_inizio": "2024-01-01"
+    }
+  ]
+}

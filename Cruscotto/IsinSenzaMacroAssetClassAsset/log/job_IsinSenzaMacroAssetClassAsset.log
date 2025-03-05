@@ -1,0 +1,88 @@
+2024-10-28 09:57:53,468 - Job_IsinSenzaMacroAssetClassAsset - INFO - Esecuzione del job: IsinSenzaMacroAssetClassAsset
+2024-10-28 09:57:53,484 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query da eseguire: select distinct productFamily, stock.stockcode as codice_titolo, stock.Isin, stock.isinName,sanp.ragsoc CF,  det.customerndg as ndg_cliente, col.ReferenceDate data_report 
+from 
+EMCMCB01.DBO.CM_Collection  col WITH (NOLOCK), EMCMCB01.DBO.CM_collectionDetail det WITH (NOLOCK) , EMCMCB01.DBO.cm_stockdomain stock WITH (NOLOCK)
+, EMCMCB01.DBO.PFFCANA sanp WITH (NOLOCK)
+where col.MacroAssetClass='00000' and det.collectionID=col.collectionID and stock.StockCode=col.ProductCode and sanp.ndgcod=financialAdvisorNDG order by productFamily,stock.Isin
+
+2024-10-28 09:57:53,563 - Job_IsinSenzaMacroAssetClassAsset - INFO - Connessione al database stabilita con successo.
+2024-10-28 09:57:55,038 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query eseguita con successo. Righe recuperate: 7
+2024-10-28 09:57:55,100 - Job_IsinSenzaMacroAssetClassAsset - INFO - Risultati della query salvati su Excel.
+2024-10-28 09:57:55,288 - Job_IsinSenzaMacroAssetClassAsset - INFO - Email con allegato inviata con successo.
+2024-10-29 09:33:53,168 - Job_IsinSenzaMacroAssetClassAsset - INFO - Esecuzione del job: IsinSenzaMacroAssetClassAsset
+2024-10-29 09:33:53,184 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query da eseguire: select distinct productFamily, stock.stockcode as codice_titolo, stock.Isin, stock.isinName,sanp.ragsoc CF,  det.customerndg as ndg_cliente, col.ReferenceDate data_report 
+from 
+EMCMCB01.DBO.CM_Collection  col WITH (NOLOCK), EMCMCB01.DBO.CM_collectionDetail det WITH (NOLOCK) , EMCMCB01.DBO.cm_stockdomain stock WITH (NOLOCK)
+, EMCMCB01.DBO.PFFCANA sanp WITH (NOLOCK)
+where col.MacroAssetClass='00000' and det.collectionID=col.collectionID and stock.StockCode=col.ProductCode and sanp.ndgcod=financialAdvisorNDG order by productFamily,stock.Isin
+
+2024-10-29 09:33:53,293 - Job_IsinSenzaMacroAssetClassAsset - INFO - Connessione al database stabilita con successo.
+2024-10-29 09:33:58,393 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query eseguita con successo. Righe recuperate: 2
+2024-10-29 09:33:58,456 - Job_IsinSenzaMacroAssetClassAsset - INFO - Risultati della query salvati su Excel.
+2024-10-29 09:33:58,674 - Job_IsinSenzaMacroAssetClassAsset - INFO - Email con allegato inviata con successo.
+2024-11-04 11:08:06,585 - Job_IsinSenzaMacroAssetClassAsset - INFO - Esecuzione del job: IsinSenzaMacroAssetClassAsset
+2024-11-04 11:08:06,601 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query da eseguire: select distinct productFamily, stock.stockcode as codice_titolo, stock.Isin, stock.isinName,sanp.ragsoc CF,  det.customerndg as ndg_cliente, col.ReferenceDate data_report 
+from 
+EMCMCB01.DBO.CM_Collection  col WITH (NOLOCK), EMCMCB01.DBO.CM_collectionDetail det WITH (NOLOCK) , EMCMCB01.DBO.cm_stockdomain stock WITH (NOLOCK)
+, EMCMCB01.DBO.PFFCANA sanp WITH (NOLOCK)
+where col.MacroAssetClass='00000' and det.collectionID=col.collectionID and stock.StockCode=col.ProductCode and sanp.ndgcod=financialAdvisorNDG order by productFamily,stock.Isin
+
+2024-11-04 11:08:06,679 - Job_IsinSenzaMacroAssetClassAsset - INFO - Connessione al database stabilita con successo.
+2024-11-04 11:08:08,724 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query eseguita con successo. Righe recuperate: 2
+2024-11-04 11:08:08,770 - Job_IsinSenzaMacroAssetClassAsset - INFO - Risultati della query salvati su Excel.
+2024-11-04 11:08:08,989 - Job_IsinSenzaMacroAssetClassAsset - INFO - Email con allegato inviata con successo.
+2024-11-11 10:14:08,504 - Job_IsinSenzaMacroAssetClassAsset - INFO - Esecuzione del job: IsinSenzaMacroAssetClassAsset
+2024-11-11 10:14:08,520 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query da eseguire: select distinct productFamily, stock.stockcode as codice_titolo, stock.Isin, stock.isinName,sanp.ragsoc CF,  det.customerndg as ndg_cliente, col.ReferenceDate data_report 
+from 
+EMCMCB01.DBO.CM_Collection  col WITH (NOLOCK), EMCMCB01.DBO.CM_collectionDetail det WITH (NOLOCK) , EMCMCB01.DBO.cm_stockdomain stock WITH (NOLOCK)
+, EMCMCB01.DBO.PFFCANA sanp WITH (NOLOCK)
+where col.MacroAssetClass='00000' and det.collectionID=col.collectionID and stock.StockCode=col.ProductCode and sanp.ndgcod=financialAdvisorNDG order by productFamily,stock.Isin
+
+2024-11-11 10:14:08,582 - Job_IsinSenzaMacroAssetClassAsset - INFO - Connessione al database stabilita con successo.
+2024-11-11 10:14:09,933 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query eseguita con successo. Righe recuperate: 4
+2024-11-11 10:14:09,996 - Job_IsinSenzaMacroAssetClassAsset - INFO - Risultati della query salvati su Excel.
+2024-11-11 10:14:10,202 - Job_IsinSenzaMacroAssetClassAsset - INFO - Email con allegato inviata con successo.
+2024-11-18 10:00:32,772 - Job_IsinSenzaMacroAssetClassAsset - INFO - Esecuzione del job: IsinSenzaMacroAssetClassAsset
+2024-11-18 10:00:32,788 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query da eseguire: select distinct productFamily, stock.stockcode as codice_titolo, stock.Isin, stock.isinName,sanp.ragsoc CF,  det.customerndg as ndg_cliente, col.ReferenceDate data_report 
+from 
+EMCMCB01.DBO.CM_Collection  col WITH (NOLOCK), EMCMCB01.DBO.CM_collectionDetail det WITH (NOLOCK) , EMCMCB01.DBO.cm_stockdomain stock WITH (NOLOCK)
+, EMCMCB01.DBO.PFFCANA sanp WITH (NOLOCK)
+where col.MacroAssetClass='00000' and det.collectionID=col.collectionID and stock.StockCode=col.ProductCode and sanp.ndgcod=financialAdvisorNDG order by productFamily,stock.Isin
+
+2024-11-18 10:00:32,881 - Job_IsinSenzaMacroAssetClassAsset - INFO - Connessione al database stabilita con successo.
+2024-11-18 10:00:34,335 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query eseguita con successo. Righe recuperate: 4
+2024-11-18 10:00:34,382 - Job_IsinSenzaMacroAssetClassAsset - INFO - Risultati della query salvati su Excel.
+2024-11-18 10:00:34,569 - Job_IsinSenzaMacroAssetClassAsset - INFO - Email con allegato inviata con successo.
+2024-11-25 10:00:31,151 - Job_IsinSenzaMacroAssetClassAsset - INFO - Esecuzione del job: IsinSenzaMacroAssetClassAsset
+2024-11-25 10:00:31,166 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query da eseguire: select distinct productFamily, stock.stockcode as codice_titolo, stock.Isin, stock.isinName,sanp.ragsoc CF,  det.customerndg as ndg_cliente, col.ReferenceDate data_report 
+from 
+EMCMCB01.DBO.CM_Collection  col WITH (NOLOCK), EMCMCB01.DBO.CM_collectionDetail det WITH (NOLOCK) , EMCMCB01.DBO.cm_stockdomain stock WITH (NOLOCK)
+, EMCMCB01.DBO.PFFCANA sanp WITH (NOLOCK)
+where col.MacroAssetClass='00000' and det.collectionID=col.collectionID and stock.StockCode=col.ProductCode and sanp.ndgcod=financialAdvisorNDG order by productFamily,stock.Isin
+
+2024-11-25 10:00:31,276 - Job_IsinSenzaMacroAssetClassAsset - INFO - Connessione al database stabilita con successo.
+2024-11-25 10:00:35,323 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query eseguita con successo. Righe recuperate: 5
+2024-11-25 10:00:35,385 - Job_IsinSenzaMacroAssetClassAsset - INFO - Risultati della query salvati su Excel.
+2024-11-25 10:00:35,604 - Job_IsinSenzaMacroAssetClassAsset - INFO - Email con allegato inviata con successo.
+2024-11-26 08:07:10,890 - Job_IsinSenzaMacroAssetClassAsset - INFO - Esecuzione del job: IsinSenzaMacroAssetClassAsset
+2024-11-26 08:07:10,910 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query da eseguire: select distinct productFamily, stock.stockcode as codice_titolo, stock.Isin, stock.isinName,sanp.ragsoc CF,  det.customerndg as ndg_cliente, col.ReferenceDate data_report 
+from 
+EMCMCB01.DBO.CM_Collection  col WITH (NOLOCK), EMCMCB01.DBO.CM_collectionDetail det WITH (NOLOCK) , EMCMCB01.DBO.cm_stockdomain stock WITH (NOLOCK)
+, EMCMCB01.DBO.PFFCANA sanp WITH (NOLOCK)
+where col.MacroAssetClass='00000' and det.collectionID=col.collectionID and stock.StockCode=col.ProductCode and sanp.ndgcod=financialAdvisorNDG order by productFamily,stock.Isin
+
+2024-11-26 08:07:11,071 - Job_IsinSenzaMacroAssetClassAsset - INFO - Connessione al database stabilita con successo.
+2024-11-26 08:07:15,523 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query eseguita con successo. Righe recuperate: 4
+2024-11-26 08:07:15,570 - Job_IsinSenzaMacroAssetClassAsset - INFO - Risultati della query salvati su Excel.
+2024-11-26 08:07:15,773 - Job_IsinSenzaMacroAssetClassAsset - INFO - Email con allegato inviata con successo.
+2024-11-27 15:49:58,948 - Job_IsinSenzaMacroAssetClassAsset - INFO - Esecuzione del job: IsinSenzaMacroAssetClassAsset
+2024-11-27 15:49:58,967 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query da eseguire: select distinct productFamily, stock.stockcode as codice_titolo, stock.Isin, stock.isinName,sanp.ragsoc CF,  det.customerndg as ndg_cliente, col.ReferenceDate data_report 
+from 
+EMCMCB01.DBO.CM_Collection  col WITH (NOLOCK), EMCMCB01.DBO.CM_collectionDetail det WITH (NOLOCK) , EMCMCB01.DBO.cm_stockdomain stock WITH (NOLOCK)
+, EMCMCB01.DBO.PFFCANA sanp WITH (NOLOCK)
+where col.MacroAssetClass='00000' and det.collectionID=col.collectionID and stock.StockCode=col.ProductCode and sanp.ndgcod=financialAdvisorNDG order by productFamily,stock.Isin
+
+2024-11-27 15:49:59,115 - Job_IsinSenzaMacroAssetClassAsset - INFO - Connessione al database stabilita con successo.
+2024-11-27 15:50:00,772 - Job_IsinSenzaMacroAssetClassAsset - INFO - Query eseguita con successo. Righe recuperate: 1
+2024-11-27 15:50:00,819 - Job_IsinSenzaMacroAssetClassAsset - INFO - Risultati della query salvati su Excel.
+2024-11-27 15:50:01,019 - Job_IsinSenzaMacroAssetClassAsset - INFO - Email con allegato inviata con successo.
